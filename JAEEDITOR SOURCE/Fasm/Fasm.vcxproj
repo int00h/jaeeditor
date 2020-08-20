@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D363F674-0A66-4C78-BD09-A93B2070E062}</ProjectGuid>
+    <RootNamespace>Fasm</RootNamespace>
+    <ProjectName>JaeEditor</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AssemblerOutput>All</AssemblerOutput>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OperationsOnSelectedLines.cpp" />
+    <ClCompile Include="ReadingIniFile.cpp" />
+    <ClCompile Include="WndClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="General.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="WndClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="breakpoint_rounded_blue_inverted.xpm" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main_RCFile.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Bitmaps\bitmap1.bmp" />
+    <Image Include="Bitmaps\bitmap12.bmp" />
+    <Image Include="Bitmaps\bitmap13.bmp" />
+    <Image Include="Bitmaps\bitmap14.bmp" />
+    <Image Include="Bitmaps\bitmap15.bmp" />
+    <Image Include="Bitmaps\bitmap16.bmp" />
+    <Image Include="Bitmaps\bitmap18.bmp" />
+    <Image Include="Bitmaps\bitmap2.bmp" />
+    <Image Include="Bitmaps\bitmap20.bmp" />
+    <Image Include="Bitmaps\bitmap21.bmp" />
+    <Image Include="Bitmaps\bitmap3.bmp" />
+    <Image Include="Bitmaps\bitmap4.bmp" />
+    <Image Include="Bitmaps\bitmap41.bmp" />
+    <Image Include="Bitmaps\bitmap44.bmp" />
+    <Image Include="Bitmaps\bitmap5.bmp" />
+    <Image Include="Bitmaps\bitmap52.bmp" />
+    <Image Include="Bitmaps\bitmap53.bmp" />
+    <Image Include="Bitmaps\bitmap54.bmp" />
+    <Image Include="Bitmaps\bitmap55.bmp" />
+    <Image Include="Bitmaps\bitmap56.bmp" />
+    <Image Include="Bitmaps\bitmap57.bmp" />
+    <Image Include="Bitmaps\bitmap58.bmp" />
+    <Image Include="Bitmaps\bitmap59.bmp" />
+    <Image Include="Bitmaps\bitmap6.bmp" />
+    <Image Include="Bitmaps\bitmap60.bmp" />
+    <Image Include="Bitmaps\bitmap61.bmp" />
+    <Image Include="Bitmaps\bitmap62.bmp" />
+    <Image Include="Bitmaps\bitmap63.bmp" />
+    <Image Include="Bitmaps\bitmap64.bmp" />
+    <Image Include="Bitmaps\bitmap65.bmp" />
+    <Image Include="Bitmaps\bitmap66.bmp" />
+    <Image Include="Bitmaps\bitmap67.bmp" />
+    <Image Include="Bitmaps\bitmap68.bmp" />
+    <Image Include="Bitmaps\bitmap69.bmp" />
+    <Image Include="Bitmaps\bitmap7.bmp" />
+    <Image Include="Bitmaps\bitmap8.bmp" />
+    <Image Include="Bitmaps\bitmap9.bmp" />
+    <Image Include="bitmaps\icon3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Examples\DDRAW.txt" />
+    <Text Include="Examples\DIALOG.txt" />
+    <Text Include="Examples\DLL.txt" />
+    <Text Include="Examples\DLL2.txt" />
+    <Text Include="Examples\Example2.HelloWorld.txt" />
+    <Text Include="Examples\Example3.HelloWorld.txt" />
+    <Text Include="Examples\Hello World.txt" />
+    <Text Include="Examples\MANDEL.txt" />
+    <Text Include="Examples\MINIPAD.txt" />
+    <Text Include="Examples\MSCOFF.txt" />
+    <Text Include="Examples\OPENGL.txt" />
+    <Text Include="Examples\OPENGL2.txt" />
+    <Text Include="Examples\PE64DEMO.txt" />
+    <Text Include="Examples\PEDEMO.txt" />
+    <Text Include="Examples\TEMPLATE.txt" />
+    <Text Include="Examples\TEMPLATE2.txt" />
+    <Text Include="Examples\USECOM.txt" />
+    <Text Include="Examples\USECOM2.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Main_RCFile.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

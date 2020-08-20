@@ -1,0 +1,155 @@
+﻿Build started 16.03.2015 16:28:50.
+     1>Project "D:\Desktop\Fasm\Fasm\Fasm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>d:\desktop\fasm\fasm\main.cpp(880): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1146): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1189): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(1193): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1196): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(1204): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(1231): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1242): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(1243): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(1257): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1268): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(1269): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(1319): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1499): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(1589): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1632): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1659): warning C4129: ']' : unrecognized character escape sequence
+     1>d:\desktop\fasm\fasm\main.cpp(1700): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1736): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1744): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1807): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1815): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1897): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(909) : see declaration of 'itoa'
+     1>d:\desktop\fasm\fasm\main.cpp(1903): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(909) : see declaration of 'itoa'
+     1>d:\desktop\fasm\fasm\main.cpp(1907): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2278): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(2340): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\desktop\fasm\fasm\main.cpp(2372): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(2396): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(2428): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(2458): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(2506): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(2513): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(2559): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(2650): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(2667): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(2709): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(1924): warning C4101: 'ps' : unreferenced local variable
+     1>d:\desktop\fasm\fasm\main.cpp(1925): warning C4101: 'lPoint' : unreferenced local variable
+     1>d:\desktop\fasm\fasm\main.cpp(2919): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2920): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(2922): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2923): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(2925): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2926): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(2928): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2929): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(2931): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2932): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(2934): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2935): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255) : see declaration of 'strupr'
+     1>d:\desktop\fasm\fasm\main.cpp(2980): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2981): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(2983): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2984): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(2986): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2987): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(2989): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2990): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(2992): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2993): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(2995): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(2996): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>d:\desktop\fasm\fasm\main.cpp(3477): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(3565): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(3576): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(3755): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\desktop\fasm\fasm\main.cpp(3835): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>d:\desktop\fasm\fasm\main.cpp(3871): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>d:\desktop\fasm\fasm\main.cpp(3827): warning C4101: 'mesSF' : unreferenced local variable
+     1>d:\desktop\fasm\fasm\main.cpp(3907): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(3925): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>d:\desktop\fasm\fasm\main.cpp(3970): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(3983): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4014): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4024): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4027): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4042): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4052): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4057): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4074): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\desktop\fasm\fasm\main.cpp(4130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\desktop\fasm\fasm\main.cpp(4129): warning C4101: 'ptmp' : unreferenced local variable
+     1>d:\desktop\fasm\fasm\main.cpp(4244): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4264): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4281): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>d:\desktop\fasm\fasm\main.cpp(4296): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4313): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>d:\desktop\fasm\fasm\main.cpp(4324): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4327): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(4344): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>d:\desktop\fasm\fasm\main.cpp(4351): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\desktop\fasm\fasm\main.cpp(3898): warning C4715: 'FileClose' : not all control paths return a value
+     1>d:\desktop\fasm\fasm\main.cpp(3977): warning C4715: 'Overlap' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Desktop\Fasm\Debug\JaeEditor.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Desktop\Fasm\Debug\JaeEditor.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Desktop\Fasm\Debug\JaeEditor.lib" /MACHINE:X86 Debug\Main_RCFile.res
+         Debug\Main.obj
+         Debug\OperationsOnSelectedLines.obj
+         Debug\ReadingIniFile.obj
+         Debug\WndClass.obj
+         Fasm.vcxproj -> D:\Desktop\Fasm\Debug\JaeEditor.exe
+     1>Done Building Project "D:\Desktop\Fasm\Fasm\Fasm.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.28
