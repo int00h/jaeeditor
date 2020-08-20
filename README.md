@@ -17,9 +17,9 @@ Features:
 - etc.
 
 
-All opened files saves in settings.ini and the next time these will be opened. This file also contains colors for syntax highlighting.
-Also supports setting bookmarks in code for navigation and quick transition between code blocks.
-Like any other IDE, it includes a code editor that supports syntax highlighting and code completion.
+All opened files are saved in settings.ini and the next time these files will be opened. settings.ini also contains colors for syntax highlighting.
+IDE also supports setting bookmarks in code for navigation and quick transition between code blocks.
+JaeEditor like many other IDEs includes a code editor that supports syntax highlighting and code completion.
 
 - JaeEditor Site
 <https://jaeeditor.com/>
