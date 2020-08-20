@@ -22,7 +22,9 @@ Features:
 All opened files saves in settings.ini and the next time these will be opened. This file also contains colors for syntax highlighting.
 
 Quick navigation
+
 Also supports setting bookmarks in code for navigation and quick transition between code blocks.
 
 Other features
+
 Like any other IDE, it includes a code editor that supports syntax highlighting and code completion.
