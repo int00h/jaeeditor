@@ -24,4 +24,4 @@ JaeEditor like many other IDEs includes a code editor that supports syntax highl
 - JaeEditor Site
 <https://jaeeditor.com/>
 
-![demo](https://github.com/jaeeditor/JAEEDITOR~1/interface.png)
+![](https://github.com/jaeeditor/JAEEDITOR%20SOURCE/interface.png)
