@@ -1,8 +1,8 @@
 # JaeEditor
 
 JaeEditor is an IDE for flat assembler with open source.
-Written using Microsoft Visual Studio, WinAPI and Scintilla.
 By default JaeEditor is focused on working with flat assembler, but it is also possible to connect other assemblers.
+Written using Microsoft Visual Studio, WinAPI and Scintilla.
 
 Features:
 - Syntax highlighting
