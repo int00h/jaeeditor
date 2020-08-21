@@ -23,6 +23,3 @@ JaeEditor like many other IDEs includes a code editor that supports syntax highl
 
 - JaeEditor Site
 <https://jaeeditor.com/>
-
-- Veronika Lopatina  
-<int00h@mail.ru> 
